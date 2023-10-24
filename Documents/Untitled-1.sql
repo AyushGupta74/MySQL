@@ -6,8 +6,7 @@ delimiter $
 create function otp() returns int
 deterministic
 begin
-    declare num varchar(6);
-    set num :='';
+    declare num int;
     select round(concat(ceil(rand()*10), rand()*1000, rand()*100)) into num;
     returns num;
 end $
