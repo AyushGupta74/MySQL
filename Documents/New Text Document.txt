@@ -1,1 +1,2 @@
-mysql -h192.168.10.150 -p3306 -udac8 -pwelcome dac8
+mysql -h192.168.10.150 -p3306 -udac8 -pwelcome 
+
